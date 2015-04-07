@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dd.surfit.test.applicationdemo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Welcome.Welcome_1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Welcome.Welcome_2"/>
+        <activity android:name=".Welcome.Welcome_3"/>
+
+        <activity android:name=".MainActivity"/>
+
+        <activity android:name=".ListActivity"/>
+        <activity android:name=".SlideMenu.SlideMenu_1"/>
+        <activity android:name=".SlideMenu.SlideMenu_2"/>
+        <activity android:name=".SlideMenu.SlideMenu_3"/>
+
+        <activity android:name=".Animations.Animation_1"/>
+        <activity android:name=".Animations.Animation_2"/>
+
+        <activity android:name=".Progress.Example"/>
+        <activity android:name=".Progress.Example_1"/>
+
+        <activity android:name=".SlideMenu.example.PropertiesActivity" />
+        <activity android:name=".SlideMenu.example.LeftAndRightActivity" />
+        <activity android:name=".SlideMenu.example.AttachExample" />
+        <activity android:name=".SlideMenu.example.anim.CustomScaleAnimation" />
+        <activity android:name=".SlideMenu.example.anim.CustomZoomAnimation" />
+        <activity android:name=".SlideMenu.example.anim.CustomSlideAnimation" />
+        <activity android:name=".SlideMenu.example.SlidingTitleBar" />
+        <activity android:name=".SlideMenu.example.SlidingContent" />
+        <activity android:name=".SlideMenu.example.ViewPagerActivity" />
+        <activity android:name=".SlideMenu.example.fragments.FragmentChangeActivity" />
+        <activity android:name=".SlideMenu.example.fragments.ResponsiveUIActivity" />
+        <activity
+            android:name=".SlideMenu.example.fragments.BirdActivity" />
+    </application>
+
+</manifest>
